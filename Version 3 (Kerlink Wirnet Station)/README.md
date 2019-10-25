@@ -3,9 +3,9 @@
 ## Hardware used
 This version setup uses the following hardware:
 - **Single board computer:** Raspberry Pi 3
-- **LoRa module:** Kerlink Wirnet Station, a commercial gateway (needs more explanation)
+- **LoRa module:** Kerlink Wirnet Station, a commercial bidirectional gateway
 - **Antenna:** A 1/2 wave 860-960 MHz antenna with 2 dBi gain attached to the LoRa module
-- **Connection bridge:** Ethernet cable (needs more explanation)
+- **Connection bridge:** Ethernet cable to of the gateway was connected to Raspberry Pi 3 via power injector
 - **Storage:** 32 GB microSD card inserted to the Raspberry Pi for data storage
 
 ## Instructions
