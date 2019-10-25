@@ -9,4 +9,9 @@ This version setup uses the following hardware:
 - **Storage:** 32 GB microSD card inserted to the Raspberry Pi for data storage
 
 ## Software used
-The libloragw library [7] was used for the Raspberry Pi to access the LoRa card and configure radio frequencies. The 922.0-923.4 MHz band-plan setting was selected for 923 MHz, while sub-band 2 was selected for the 915 MHz ISM band based on their popularity among network providers in the country of interest. On top of the library, data collection was conducted through a LoRa packet logger software [8] which records all LoRa packets received by the LoRa card. This was chosen for the convenience of not having to register the gateway to a particular network server and its csv format data export feature. The Raspberry Pi was configured to automatically initiate the packet logger software upon powering on and obtaining the correct time via the Internet.
+- **libloragw library:** (https://github.com/Lora-net/lora_gateway/tree/master/libloragw) was used for the Raspberry Pi to access the LoRa card and configure radio frequencies
+- **Packet logger:** (https://github.com/Lora-net/lora_gateway/tree/master/util_pkt_logger) This software records all LoRa packets received by the LoRa card and outputs in csv format every hour.
+
+*The Raspberry Pi has been configured to initiate the 'Packet logger software' upon powering on and obtaining the correct time via the Internet (A delay of 5 minutes has been placed).
+
+## Instructions
