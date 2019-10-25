@@ -1,3 +1,5 @@
+
+
 Follow these steps to perform passive packet sniffing using Kerlink Wirnet Station
 
 1.	Connect Kerlink Wirnet Station to ethernet interface of Raspberry Pi.
@@ -11,7 +13,8 @@ Follow these steps to perform passive packet sniffing using Kerlink Wirnet Stati
 
 If you are having difficulties in step 3, please follow these steps to connect to Kerlink Wirnet Station
 
-1.	Please make sure that the wiring of the  Kerlink Wirnet Station is okay.
+1.	Please make sure that the wiring of the  Kerlink Wirnet Station is okay.  
+![Correct wiring](https://drive.google.com/open?id=1N7IykG61Pg5LXPOWJy6CH8Crh6R4sSuM)
 2.	For the Power over Ethernet injector  
 	•Connect “Data & Power out”   to the cable connected to the gateway.  
 	•Data In : Cable connected to the network (router).
