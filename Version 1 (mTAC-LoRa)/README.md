@@ -24,5 +24,5 @@ This version setup uses the following hardware:
 
 ## Information extraction
 To extract the information, follow the steps below:
-1) Download the python script from
+1) Download the _LoRadar data extraction.py_ python script from above
 2) 
