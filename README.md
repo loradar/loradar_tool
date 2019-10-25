@@ -2,6 +2,8 @@
 
 ![Overview of LoRaWAN communication and breakdown of LoRadar (Version 1)](https://drive.google.com/uc?export=view&id=1_DZtQ1pf7xVO5VPIY57kWERC9kML--kG)
 
+![Overview of LoRaWAN communication and breakdown of LoRadar (Version 1)](https://drive.google.com/uc?export=view&id=1dRjqzCVLUKTCDUUo-21DoLjALqH2dRrb)
+
 ## Introduction
 LoRa is the physical layer access technology that employs a variant of the chirp spreadspectrum modulation, allowing low powered transmission of small data rates (0.3 kbps to 50 kbps) over a long distances (up to 15 km in suburban and 2 km in dense urban areas). LoRaWAN is a star topology network architecture developed on top of LoRa physical layer for communication between a gateway and an IoT sensor.
 
