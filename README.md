@@ -8,14 +8,15 @@ LoRa is the physical layer access technology that employs a variant of the chirp
 _LoRadar_ is a passive packet sniffing framework for LoRa built using off-the-shelf hardware. Unlike standard LoRaWAN gateways that relay the received LoRaWAN packets to the network server, _LoRdar_ does not relay the received messages and is in essence an offline LoRaWAN gateway. This provides the benefit of not interfering with the existing network, such as changing the flow of the uplink and downlink packet transmissions.
 
 ## Versions
+
+![Summary of the LoRadar versions.](https://drive.google.com/uc?export=view&id=1OKXoblexwRSbd8lldo-9EEsxAR2Xif-K)
+
 _LoRadar_ supports all forms of LoRaWAN gateways, whether commercially purchased or custom-built. Support for commercially purchased gateways are based on using our Python script along with the gateways' built-in packet logging feature to collect the sniffed data. For custom-built gateways, LoRadar supports both SPI and USB-to-mPCIe connections. Data collection is achieved by using the packet logger developed by Jac Kersing (https://github.com/kersing/lora_gateway/tree/master/util_pkt_logger). We provide tutorials for three versions below:
 1) Version 1 (Custom-built; mTAC-LoRa as the module)
 2) Version 2 (Custom-built; RAK831 as the module)
 3) Version 3 (Commercial; Kerlink Wirnet Station)
 
 Instructions for each version are provided in their corresponding directory.
-
-![Summary of the LoRadar versions.](https://drive.google.com/uc?export=view&id=1OKXoblexwRSbd8lldo-9EEsxAR2Xif-K)
 
 ## Data collection and information extraction
 Once the data is collected, various sensor and network information are extracted from our python script, and outputed as a csv file:
