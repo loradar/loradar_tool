@@ -17,7 +17,7 @@ If you are having difficulties in step 3, please follow these steps to connect t
 	-Data In : Cable connected to the network (router).
 3.	Gain access to the router and see whether that the gateway has obtained an IP-address from it. (It should and that is used to connect to the gate-way)
 4.	From a browser try to connect to that IP-Address.
-5.	Enter your login details, these are the default username and password: 
+5.	Enter your login details, these are the default username and password:   
 	-Login : admin
 	-Password: spnpwd
 6.	If it does not obtain an IP from the router, connect the cable that connected to the router to the computer and try following,
