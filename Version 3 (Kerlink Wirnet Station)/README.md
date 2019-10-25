@@ -1,5 +1,5 @@
 
-Follow these steps to perform passive packet sniffing using Kerlink Wirnet Station
+**Follow these steps to perform passive packet sniffing using Kerlink Wirnet Station**
 
 1.	Connect Kerlink Wirnet Station to ethernet interface of Raspberry Pi.
 2.	Open chromium browser from Raspberry Pi.
@@ -10,7 +10,7 @@ Follow these steps to perform passive packet sniffing using Kerlink Wirnet Stati
 6.	Copy “LogReader.py” to downloads folder and run.
 7.	A new file called “Packets.cvs” will be created with sniffed packets.
 
-If you are having difficulties in step 3, please follow these steps to connect to Kerlink Wirnet Station
+**If you are having difficulties in step 3, please follow these steps to connect to Kerlink Wirnet Station**
 
 1.	Please make sure that the wiring of the  Kerlink Wirnet Station is okay.  
 ![Correct wiring](https://drive.google.com/uc?export=view&id=1N7IykG61Pg5LXPOWJy6CH8Crh6R4sSuM)
