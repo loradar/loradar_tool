@@ -12,6 +12,6 @@ This version setup uses the following hardware:
 - **libloragw library:** (https://github.com/Lora-net/lora_gateway/tree/master/libloragw) was used for the Raspberry Pi to access the LoRa card and configure radio frequencies
 - **Packet logger:** (https://github.com/Lora-net/lora_gateway/tree/master/util_pkt_logger) This software records all LoRa packets received by the LoRa card and outputs in csv format every hour.
 
-*The Raspberry Pi has been configured to initiate the 'Packet logger software' upon powering on and obtaining the correct time via the Internet (A delay of 5 minutes has been placed).
+*The Raspberry Pi has been configured to initiate the 'Packet logger software' upon powering on and obtaining the correct time via the Internet (A delay of 5 minutes has been placed).*
 
 ## Instructions
