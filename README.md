@@ -30,4 +30,4 @@ The standards fields within a LoRaWAN packet, such as the data rate, code rate, 
 ## Visualization
 The extracted information can also be visualized on a web dashboard, through Kibana from the Elasticsearch-Logstash-Kibana (ELK) stack. Instructions on installing and setting up the Kibana dashboard is found in the 'Kibana' directory.
 
-!["A screenshot of the Kibana dashboard"](https://drive.google.com/uc?export=view&id=1sM8tS8UqK4CDGhlQFkQ7e9hJQtHtDFv5)
+![A screenshot of the Kibana dashboard](https://drive.google.com/uc?export=view&id=1sM8tS8UqK4CDGhlQFkQ7e9hJQtHtDFv5)
