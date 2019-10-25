@@ -13,6 +13,8 @@ _LoRadar_ supports all forms of LoRaWAN gateways, whether commercially purchased
 2) Version 2 (Custom-built; RAK831 as the module)
 3) Version 3 (Commercial; Kerlink Wirnet Station)
 
+Instructions for each version are provided in their corresponding directory.
+
 ## Data collection and information extraction
 Once the data is collected, various sensor and network information are extracted from our python script, and outputed as a csv file:
 - Unqiue device ID of each sensor
