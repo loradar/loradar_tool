@@ -1,3 +1,3 @@
 # LoRadar
 
-![Overview of LoRaWAN communication and LoRadar](https://github.com/loradar/loradar_tool/blob/master/Images/LoRaWAN_LoRadar.png =250x)
+![Overview of LoRaWAN communication and LoRadar](https://drive.google.com/file/d/1_DZtQ1pf7xVO5VPIY57kWERC9kML--kG/view?usp=sharing =250x)
