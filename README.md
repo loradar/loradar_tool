@@ -8,7 +8,7 @@ LoRa is the physical layer access technology that employs a variant of the chirp
 _LoRadar_ is a passive packet sniffing framework for LoRa built using off-the-shelf hardware. Unlike standard LoRaWAN gateways that relay the received LoRaWAN packets to the network server, _LoRdar_ does not relay the received messages and is in essence an offline LoRaWAN gateway. This provides the benefit of not interfering with the existing network, such as changing the flow of the uplink and downlink packet transmissions.
 
 ## Versions
-_LoRadar_ supports all forms of LoRaWAN gateways, whether commercially purchased or custom-built. Support for commercially purchased gateways are based on using our Python script along with the gateways' built-in packet logging feature to collect the sniffed data. For custom-built gateways, LoRadar supports both SPI and USB-to-mPCIe connections. Data collection is achieved by using the packet logger developed by Jac Kersing (https://github.com/kersing/lora_gateway/tree/master/util_pkt_logger). We provide tutorials for three versions, below:
+_LoRadar_ supports all forms of LoRaWAN gateways, whether commercially purchased or custom-built. Support for commercially purchased gateways are based on using our Python script along with the gateways' built-in packet logging feature to collect the sniffed data. For custom-built gateways, LoRadar supports both SPI and USB-to-mPCIe connections. Data collection is achieved by using the packet logger developed by Jac Kersing (https://github.com/kersing/lora_gateway/tree/master/util_pkt_logger). We provide tutorials for three versions below:
 1) Version 1 (Custom-built; mTAC-LoRa as the module)
 2) Version 2 (Custom-built; RAK831 as the module)
 3) Version 3 (Commercial; Kerlink Wirnet Station)
@@ -29,3 +29,4 @@ The standards fields within a LoRaWAN packet, such as the data rate, code rate, 
 
 ## Visualization
 The extracted information can also be visualized on a web dashboard, through Kibana from the Elasticsearch-Logstash-Kibana (ELK) stack.
+![A screenshot of the Kibana dashboard](https://drive.google.com/uc?export=view&id=1sM8tS8UqK4CDGhlQFkQ7e9hJQtHtDFv5)
