@@ -13,7 +13,7 @@ If you are having difficulties in step 3, please follow these steps to connect t
 
 1.	Please make sure that the wiring of the  Kerlink Wirnet Station is okay.
 2.	For the Power over Ethernet injector  
-	•Connect “Data & Power out”   to the cable connected to the gateway.
+	•Connect “Data & Power out”   to the cable connected to the gateway.  
 	•Data In : Cable connected to the network (router).
 3.	Gain access to the router and see whether that the gateway has obtained an IP-address from it. (It should and that is used to connect to the gate-way)
 4.	From a browser try to connect to that IP-Address.
