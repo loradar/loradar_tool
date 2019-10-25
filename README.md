@@ -1,6 +1,6 @@
 # _LoRadar_
 
-![Overview of LoRaWAN communication and breakdown of LoRadar (Version 1)](https://drive.google.com/uc?export=view&id=1MKsdDbceHVgKC9ZMwL1FuyNo4fZK0WaD)
+![Overview of LoRaWAN communication and breakdown of LoRadar (Version 1).](https://drive.google.com/uc?export=view&id=1MKsdDbceHVgKC9ZMwL1FuyNo4fZK0WaD)
 
 ## Introduction
 LoRa is the physical layer access technology that employs a variant of the chirp spreadspectrum modulation, allowing low powered transmission of small data rates (0.3 kbps to 50 kbps) over a long distances (up to 15 km in suburban and 2 km in dense urban areas). LoRaWAN is a star topology network architecture developed on top of LoRa physical layer for communication between a gateway and an IoT sensor.
@@ -14,6 +14,8 @@ _LoRadar_ supports all forms of LoRaWAN gateways, whether commercially purchased
 3) Version 3 (Commercial; Kerlink Wirnet Station)
 
 Instructions for each version are provided in their corresponding directory.
+
+![Summary of the LoRadar versions.](https://drive.google.com/uc?export=view&id=1OKXoblexwRSbd8lldo-9EEsxAR2Xif-K)
 
 ## Data collection and information extraction
 Once the data is collected, various sensor and network information are extracted from our python script, and outputed as a csv file:
@@ -30,4 +32,4 @@ The standards fields within a LoRaWAN packet, such as the data rate, code rate, 
 ## Visualization
 The extracted information can also be visualized on a web dashboard, through Kibana from the Elasticsearch-Logstash-Kibana (ELK) stack. Instructions on installing and setting up the Kibana dashboard is found in the 'Kibana' directory.
 
-![A screenshot of the Kibana dashboard](https://drive.google.com/uc?export=view&id=1sM8tS8UqK4CDGhlQFkQ7e9hJQtHtDFv5)
+![A screenshot of the Kibana dashboard.](https://drive.google.com/uc?export=view&id=1sM8tS8UqK4CDGhlQFkQ7e9hJQtHtDFv5)
