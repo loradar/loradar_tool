@@ -1,4 +1,4 @@
-# LoRadar
+# _LoRadar_
 
 ![Overview of LoRaWAN communication and breakdown of LoRadar (Version 1)](https://drive.google.com/uc?export=view&id=1_DZtQ1pf7xVO5VPIY57kWERC9kML--kG)
 
@@ -28,3 +28,4 @@ Once the data is collected, various sensor and network information are extracted
 The standards fields within a LoRaWAN packet, such as the data rate, code rate, and frequency channel are also displayed in the csv file.
 
 ## Visualization
+The extracted information can also be visualized on a web dashboard, through Kibana from the Elasticsearch-Logstash-Kibana (ELK) stack.
