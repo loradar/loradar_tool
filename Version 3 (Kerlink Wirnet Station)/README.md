@@ -7,7 +7,7 @@ Follow these steps to perform passive packet sniffing using Kerlink Wirnet Stati
 4.	Login to the gateway using your username and password.
 5.	Run “Downloader.py” to collect log data from Kerlink gateway without closing the chromium browser.
 6.	Copy “LogReader.py” to downloads folder and run.
-7.		A new file called “Packets.cvs” will be created with sniffed packets.
+7.	A new file called “Packets.cvs” will be created with sniffed packets.
 
 If you are having difficulties in step 3, please follow these steps to connect to Kerlink Wirnet Station
 
