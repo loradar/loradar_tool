@@ -15,3 +15,14 @@ This version setup uses the following hardware:
 *The Raspberry Pi has been configured to initiate the 'Packet logger software' upon powering on and obtaining the correct time via the Internet (A delay of 5 minutes has been placed).*
 
 ## Instructions
+1) Download the Raspberry Pi (RPi) image from https://drive.google.com/file/d/1OAoVtyabDzkLRxGgQARBqh3THc2MbKr8/view?usp=sharing
+2) Flash the image onto an SD card, using _balenaEtcher_ (https://www.balena.io/etcher/)
+3) Insert the SD card into the RPi and power it on
+4) In Rpi, open a console and run the following codes
+`code goes here`
+5) Reboot the RPi, and the data collection should commence in 5 minutes (It is recommended that you connect the RPi to a wired or wireless network so that the correct time can be obtained)
+
+## Information extraction
+To extract the information, follow the steps below:
+1) Download the python script from
+2) 
