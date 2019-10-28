@@ -34,3 +34,13 @@ This version setup uses the following hardware:
 	• Password: spnpwd
 6) If it does not obtain an IP from the router, connect the cable that connected to the router to the computer and try following,  
 	• Try to connect to the IP 192.168.13.151. Please set the computers LAN to the same (something like 192.168.13.150)
+
+## Information extraction
+To extract the information, follow the steps below:
+1) Download the _Ver3\_LoRadar\_Extractor.py_ python script from above and place it in the _Downloads_ folder of the Raspberry Pi
+2) Open a terminal and enter run the following commands to install the required libraries:  
+`sudo apt-get install python3-matplotlib --assume-yes`  
+`sudo apt-get install python3-pandas --assume-yes`
+3) Open the python script with _Python 3 (IDLE)_
+4) Run the module
+5) Upon successful extraction, a csv file will be created in the same directory as the _Ver3\_LoRadar\_Extractor.py_ python script
