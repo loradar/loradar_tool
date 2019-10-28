@@ -21,7 +21,7 @@ This version setup uses the following hardware:
 2) Flash the image onto an SD card, using _balenaEtcher_ (https://www.balena.io/etcher/)
 3) Insert the SD card into the RPi and power it on, and the data collection should commence in 5 minutes (It is recommended that you connect the RPi to a wired or wireless network so that the correct time can be obtained)
 
-## Information extraction
+## Information extraction (Requires Internet Connection)
 To extract the information, follow the steps below:
 1) Download the _Ver2\_LoRadar\_Extractor.py_ python script from above and place it in the _Downloads_ folder of the Raspberry Pi
 2) Open a terminal and enter run the following commands to install the required libraries:  
