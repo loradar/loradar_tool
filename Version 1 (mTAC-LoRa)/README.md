@@ -15,14 +15,17 @@ This version setup uses the following hardware:
 *The Raspberry Pi has been configured to initiate the 'Packet logger software' upon powering on and obtaining the correct time via the Internet (A delay of 5 minutes has been placed).*
 
 ## Instructions
-1) Download the Raspberry Pi (RPi) image from https://drive.google.com/file/d/1OAoVtyabDzkLRxGgQARBqh3THc2MbKr8/view?usp=sharing
+1) Download the Raspberry Pi (RPi) image according to the frequency bandplan of interest, from https://drive.google.com/file/d/1OAoVtyabDzkLRxGgQARBqh3THc2MbKr8/view?usp=sharing
 2) Flash the image onto an SD card, using _balenaEtcher_ (https://www.balena.io/etcher/)
-3) Insert the SD card into the RPi and power it on
-4) In Rpi, open a console and run the following codes
-`code goes here`
-5) Reboot the RPi, and the data collection should commence in 5 minutes (It is recommended that you connect the RPi to a wired or wireless network so that the correct time can be obtained)
+3) Insert the SD card into the RPi and power it on, and the data collection should commence in 5 minutes (It is recommended that you connect the RPi to a wired or wireless network so that the correct time can be obtained)
 
 ## Information extraction
 To extract the information, follow the steps below:
-1) Download the _LoRadar data extraction.py_ python script from above
-2) 
+1) Download the _Ver1\_LoRadar\_Extractor.py_ python script from above and place it in the _Downloads_ folder of the Raspberry Pi
+2) Open a terminal and enter run the following commands to install the required libraries:  
+`sudo apt-get install python3-matplotlib --assume-yes`  
+`sudo apt-get install python3-pandas --assume-yes`
+3) Open the python script with _Python 3 (IDLE)_
+4) Run the module
+5) Upon successful extraction, a csv file will be created in the same directory as the _Ver1\_LoRadar\_Extractor.py_ python script
+
