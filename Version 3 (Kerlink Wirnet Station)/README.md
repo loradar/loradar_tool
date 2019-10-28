@@ -35,7 +35,7 @@ This version setup uses the following hardware:
 6) If it does not obtain an IP from the router, connect the cable that connected to the router to the computer and try following,  
 	• Try to connect to the IP 192.168.13.151. Please set the computers LAN to the same (something like 192.168.13.150)
 
-## Information extraction
+## Information extraction (Requires Internet Connection)
 To extract the information, follow the steps below:
 1) Download the _Ver3\_LoRadar\_Extractor.py_ python script from above and place it in the _Downloads_ folder of the Raspberry Pi
 2) Open a terminal and enter run the following commands to install the required libraries:  
