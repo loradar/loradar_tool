@@ -32,7 +32,7 @@ This version setup uses the following hardware:
 5) Enter your login details, these are the default username and password:   
 	• Login : admin  
 	• Password: spnpwd
-6) If it does not obtain an IP from the router, connect the cable that connected to the router to the computer and try following:    
+6) If it does not obtain an IP from the router, connect the cable that connected to the router to the computer and try the following:    
 	• Try to connect to the IP 192.168.13.151. Please set the computers LAN to the same (something like 192.168.13.150)
 
 ## Information extraction (Requires Internet Connection)
