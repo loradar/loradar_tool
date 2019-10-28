@@ -15,7 +15,9 @@ This version setup uses the following hardware:
 *The Raspberry Pi has been configured to initiate the 'Packet logger software' upon powering on and obtaining the correct time via the Internet (A delay of 5 minutes has been placed).*
 
 ## Instructions
-1) Download the Raspberry Pi (RPi) image according to the frequency bandplan of interest, from https://drive.google.com/file/d/1OAoVtyabDzkLRxGgQARBqh3THc2MbKr8/view?usp=sharing
+1) Download the Raspberry Pi (RPi) image according to the frequency bandplan of interest:  
+- 915 frequency: https://drive.google.com/file/d/144UO2tI30Df7-DTuJlAsTuzdEE44IgZ3/view?usp=sharing
+- 923 frequency: https://drive.google.com/file/d/1Wxu4gwcrQ9sh8w0kbiSxsRnPNqzYcCHC/view?usp=sharing
 2) Flash the image onto an SD card, using _balenaEtcher_ (https://www.balena.io/etcher/)
 3) Insert the SD card into the RPi and power it on, and the data collection should commence in 5 minutes (It is recommended that you connect the RPi to a wired or wireless network so that the correct time can be obtained)
 
