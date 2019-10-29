@@ -28,7 +28,41 @@ Once the data is collected, various sensor and network information are extracted
 - Transmission intervals for each device (per packet)
 - Frame count of each transmission
 
-The standards fields within a LoRaWAN packet, such as the data rate, code rate, and frequency channel are also displayed in the csv file.
+Description of the fields in the csv file are shown below.
+
+| Field Name | Description |
+| :---       | :---        |
+| UTC timestamp | UTC time of receiving LoRaWAN packet. |
+| date | Date within UTC timestamp. |
+| time | Time within UTC timesatmp. |
+| us count | The value of the gateway internal time counter at the instant the LoRaWAN packet was received, in microseconds. The value rolls over every 72 minutes. |
+| frequency | Center frequency of the received signal in MHz. |
+| RF chain | Radio frequency chain receiving the LoRaWAN packet. |
+| RX chain | Intermediate Frequency channel used to receive the packet. |
+| status | The result of the gateway's CRC test on the frame. |
+| bandwidth | Bandwidth of the LoRaWAN packet in kHz. |
+| datarate | Spreading factor of the LoRaWAN packet. |
+| coderate | Ratio of carried bits and total number of bits received. |
+| RSSI | Received siganl strength of the packet in dBm. |
+| SNR | Signal to noise ratio of the LoRaWAN packet. |
+| size | The number of octets in the packet. |
+| DevEUI or DevAddr | EUI or address of the device that the packet was sent by. |
+| AppEUI | (JoinEUI in LoRaWAN specs v1.1) The EUI of the join-server that authorized the join request. |
+| fctrl | Frame control value(raw). |
+| fcnt | Frame count number(converted). |
+| mhdr | MAC Header(raw). |
+| mtype | Message type extracted from MAC Header(raw). |
+| mtype_desc | Message type extracted from MAC Header(converted). |
+| MIC | 4-octet message integrity code. |
+| activation | Activation method. |
+| network | Network that the device of the packet belongs to. |
+| deveui_manufacturer | Manufacturer of the OTAA device. |
+| appeui_manufacturer | Join-server that authorized the join request. |
+| payload | PHY payload of the LoRaWAN packet. |
+| sec_diff | Time differential from previous packet, in seconds. |
+| Freq_Plan | The frequency bandplan the device is using. |
+| tx_interval | Approximated transmission interval per packet for the device, based on frame count. |
+| dev_number | Number assigned to the unique device. |
 
 ## Visualization
 The extracted information can also be visualized on a web dashboard, through Kibana from the Elasticsearch-Logstash-Kibana (ELK) stack. Instructions on installing and setting up the Kibana dashboard is found in the 'Kibana' directory.
