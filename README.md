@@ -48,11 +48,11 @@ Description of the fields in the csv file are shown below.
 | size | The number of octets in the packet. |
 | DevEUI or DevAddr | EUI or address of the device that the packet was sent by. |
 | AppEUI | (JoinEUI in LoRaWAN specs v1.1) The EUI of the join-server that authorized the join request. |
-| fctrl | Frame control value(raw). |
-| fcnt | Frame count number(converted). |
-| mhdr | MAC Header(raw). |
-| mtype | Message type extracted from MAC Header(raw). |
-| mtype_desc | Message type extracted from MAC Header(converted). |
+| fctrl | Frame control value (raw). |
+| fcnt | Frame count number (converted). |
+| mhdr | MAC Header (raw). |
+| mtype | Message type extracted from MAC Header (raw). |
+| mtype_desc | Message type extracted from MAC Header (converted). |
 | MIC | 4-octet message integrity code. |
 | activation | Activation method. |
 | network | Network that the device of the packet belongs to. |
