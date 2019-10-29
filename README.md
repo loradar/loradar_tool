@@ -42,7 +42,7 @@ Description of the fields in the csv file are shown below.
 | status | The result of the gateway's CRC test on the frame. |
 | bandwidth | Bandwidth of the LoRaWAN packet in kHz. |
 | datarate | Spreading factor of the LoRaWAN packet. |
-| coderate | Ratio of carried bits and total number of bits received. |
+| coderate | The ratio of carried bits and total number of bits received. |
 | RSSI | Received siganl strength of the packet in dBm. |
 | SNR | Signal to noise ratio of the LoRaWAN packet. |
 | size | The number of octets in the packet. |
