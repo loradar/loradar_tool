@@ -24,7 +24,7 @@ This version setup uses the following hardware:
 ## Information extraction (Requires Internet Connection)
 To extract the information, follow the steps below:
 1) Download the _Ver1\_LoRadar\_Extractor.py_ python script from above and place it in the _Downloads_ folder of the Raspberry Pi
-2) Open a terminal and enter run the following commands to install the required libraries:  
+2) Open a terminal and enter the following commands to install the required libraries:  
 `sudo apt-get install python3-matplotlib --assume-yes`  
 `sudo apt-get install python3-pandas --assume-yes`
 3) Open the python script with _Python 3 (IDLE)_
