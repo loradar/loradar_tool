@@ -65,6 +65,9 @@ Description of the fields in the csv file are shown below.
 | dev_number | Number assigned to the unique device. |
 
 ## Visualization
-The extracted information can also be visualized on a web dashboard, through Kibana from the Elasticsearch-Logstash-Kibana (ELK) stack. Instructions on installing and setting up the Kibana dashboard is found in the 'Kibana' directory.
+The extracted information can also be visualized on a web dashboard, through Kibana from the Elasticsearch-Logstash-Kibana (ELK) stack. Instructions on installing and setting up the Kibana dashboard are found in the 'Kibana' directory.
 
 ![A screenshot of the Kibana dashboard.](https://drive.google.com/uc?export=view&id=1sM8tS8UqK4CDGhlQFkQ7e9hJQtHtDFv5)
+
+## APIs
+LoRadar provides support for various information extraction requests through its Python script of executable functions. It uses the data file output from the scan and shows the results of the executed function in JSON format. Instructions on the APIs are found in the 'Kibana' directory.
