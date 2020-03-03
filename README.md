@@ -70,4 +70,4 @@ The extracted information can also be visualized on a web dashboard, through Kib
 ![A screenshot of the Kibana dashboard.](https://drive.google.com/uc?export=view&id=1sM8tS8UqK4CDGhlQFkQ7e9hJQtHtDFv5)
 
 ## APIs
-LoRadar provides support for various information extraction requests through its Python script of executable functions. It uses the data file output from the scan and shows the results of the executed function in JSON format. Instructions on the APIs are found in the 'Kibana' directory.
+LoRadar provides support for various information extraction requests through its Python script of executable functions. It uses the data file output from the scan and shows the results of the executed function in JSON format. Instructions on the APIs are found in the 'APIs' directory.
