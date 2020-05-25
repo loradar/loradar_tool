@@ -20,7 +20,7 @@ Instructions for each version are provided in their corresponding directory.
 
 ## Data collection and information extraction
 Once the data is collected, various sensor and network information are extracted from our python script, and outputed as a csv file:
-- Unqiue device ID of each sensor
+- Unique device ID of each sensor
 - Network server providers used
 - Device manufacturers (for OTAA devices)
 - Join-servers that authorized OTAA devices to join the network
@@ -34,7 +34,7 @@ Description of the fields in the csv file are shown below.
 | :---       | :---        |
 | UTC timestamp | UTC time of receiving LoRaWAN packet. |
 | date | Date within UTC timestamp. |
-| time | Time within UTC timesatmp. |
+| time | Time within UTC timestamp. |
 | us count | The value of the gateway internal time counter at the instant the LoRaWAN packet was received, in microseconds. The value rolls over every 72 minutes. |
 | frequency | Center frequency of the received signal in MHz. |
 | RF chain | Radio frequency chain receiving the LoRaWAN packet. |
@@ -43,7 +43,7 @@ Description of the fields in the csv file are shown below.
 | bandwidth | Bandwidth of the LoRaWAN packet in kHz. |
 | datarate | Spreading factor of the LoRaWAN packet. |
 | coderate | The ratio of carried bits and total number of bits received. |
-| RSSI | Received siganl strength of the packet in dBm. |
+| RSSI | Received signal strength of the packet in dBm. |
 | SNR | Signal to noise ratio of the LoRaWAN packet. |
 | size | The number of octets in the packet. |
 | DevEUI or DevAddr | EUI or address of the device that the packet was sent by. |
