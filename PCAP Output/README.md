@@ -4,9 +4,9 @@ This uses LoRa packet forwarder to forward the LoRa packets to a localhost with 
 
 ## Instructions
 * Users should flash the correct configuration of LoRadar on the microSD card
-` sudo apt-get update -y
-sudo apt-get install -y bittwist
-sudo apt-get install -y tcpdump
+`sudo apt-get update -y`
+`sudo apt-get install -y bittwist`
+`sudo apt-get install -y tcpdump`
 
-sudo tcpdump -s 0 -AUq port 1700 -w trial.pcap
-bittwiste -I trial.pcap -O dump_dlt_user.pcap -M 147 -D 1-42`
+`sudo tcpdump -s 0 -AUq port 1700 -w trial.pcap`
+`bittwiste -I trial.pcap -O dump_dlt_user.pcap -M 147 -D 1-42`
