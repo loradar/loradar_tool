@@ -1,6 +1,6 @@
 # Description on the Global Configuration File
 
-As LoRadar is a variation of an offline gateway, it does not forward any packets to a network provider. Hence, configuration fields related to the server do not impact its operation. The main configuration should be the selection of channels that LoRadar should listen to. This is explained below, with 'global_conf_915.config' including in-line comments on the configuration fields.
+As LoRadar is a variation of an offline gateway, it does not forward any packets to a network provider. Hence, configuration fields related to the server do not impact its operation. The main configuration should be the selection of channels that LoRadar should listen to. This is explained below, with `global_conf_915.config` including in-line comments on the configuration fields.
 
 ## Specifing channels
 Eight channels can be configured to receive LoRa packets using 125 kHz bandwith. These channels are configured in the **chan_multiSF_x** settings. Each channel has an enable boolean, a selected radio and an intermediate frequency. The channel frequency will freq setting of the radio plus the 'if' setting of the channel.
