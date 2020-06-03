@@ -9,8 +9,6 @@ _LoRadar_ is a passive packet sniffing framework for LoRa built using off-the-sh
 
 ## Versions
 
-![Summary of the LoRadar versions.](https://drive.google.com/uc?export=view&id=1OKXoblexwRSbd8lldo-9EEsxAR2Xif-K)
-
 _LoRadar_ supports all forms of LoRaWAN gateways, whether commercially purchased or custom-built. Support for commercially purchased gateways are based on using our Python script along with the gateways' built-in packet logging feature to collect the sniffed data. For custom-built gateways, LoRadar supports both SPI and USB-to-mPCIe connections. Data collection is achieved by using the packet logger developed by Jac Kersing (https://github.com/kersing/lora_gateway/tree/master/util_pkt_logger). We provide tutorials for three versions below:
 1) Configuration 1 (Custom-built; mTAC-LoRa as the module)
 2) Configuration 2 (Custom-built; RAK831 as the module)
