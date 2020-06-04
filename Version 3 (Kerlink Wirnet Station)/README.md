@@ -1,7 +1,7 @@
-# _LoRadar_ (Version 3)
+# _LoRadar_ (Configuration 3)
 
 ## Hardware used
-This version setup uses the following hardware:
+This configuration setup uses the following hardware:
 - **Single board computer:** Raspberry Pi 3
 - **LoRa module:** Kerlink Wirnet Station, a commercial bidirectional gateway
 - **Antenna:** A fibreglass 1/2 wave 860-960 MHz antenna with 6 dBi gain attached to the LoRa module
