@@ -1,7 +1,7 @@
 # _LoRadar_ (Configuration 2)
 
 ## Hardware used
-This version setup uses the following hardware:
+This configuration setup uses the following hardware:
 - **Single board computer:** Raspberry Pi 3
 - **LoRa module:** RAK831, a gateway accessory from RAK wireless suitable for both 915 MHz and 923 MHz ISM frequency bands was used to capture LoRa packets
 - **Antenna:** A 1/2 wave 860-960 MHz antenna with 2 dBi gain attached to the LoRa module
