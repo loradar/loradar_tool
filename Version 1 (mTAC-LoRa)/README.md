@@ -1,4 +1,4 @@
-# _LoRadar_ (Version 1)
+# _LoRadar_ (Configuration 1)
 
 ## Hardware used
 This version setup uses the following hardware:
