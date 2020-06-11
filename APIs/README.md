@@ -10,6 +10,6 @@ Currently, the API supports the following commands:
 
 ## Instructions
 
-* Download the `APIs.py` script to the directory whether LoRadar data are stored.
+* Download the `APIs.py` script to the directory where LoRadar data are stored.
 
 * Run the script and follow the instructions shown in the terminal.
