@@ -29,4 +29,4 @@ To extract the information, follow the steps below:
 `sudo apt-get install python3-pandas --assume-yes`
 3) Open the python script with _Python 3 (IDLE)_
 4) Run the module (Requires Internet Connection)
-5) Upon successful extraction, a csv file will be created in the same directory as the _Ver1\_LoRadar\_Extractor.py_ python script
+5) Upon successful extraction, a csv file will be created in the same directory as the _Config1\_LoRadar\_Extractor.py_ python script
