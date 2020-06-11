@@ -36,10 +36,10 @@ This configuration setup uses the following hardware:
 
 ## Information extraction (Requires Internet Connection)
 To extract the information, follow the steps below:
-1) Download the _Ver3\_LoRadar\_Extractor.py_ python script from above and place it in the _Downloads_ folder of the Raspberry Pi
+1) Download the _Config3\_LoRadar\_Extractor.py_ python script from above and place it in the _Downloads_ folder of the Raspberry Pi
 2) Open a terminal and enter run the following commands to install the required libraries:  
 `sudo apt-get install python3-matplotlib --assume-yes`  
 `sudo apt-get install python3-pandas --assume-yes`
 3) Open the python script with _Python 3 (IDLE)_
 4) Run the module (Requires Internet Connection)
-5) Upon successful extraction, a csv file will be created in the same directory as the _Ver3\_LoRadar\_Extractor.py_ python script
+5) Upon successful extraction, a csv file will be created in the same directory as the _Config3\_LoRadar\_Extractor.py_ python script
